@@ -34,6 +34,12 @@ body {
 	font-size: 18px;
 	font-weight: 400;
 	color: white;
+	background-color: #2D3142;
+}
+
+main {
+		background-color: #2D3142;
+
 }
 
 p {
@@ -45,10 +51,11 @@ p {
 
 body main{
 	background-image: url("images/background.png");
-	background-repeat: none;
+	background-repeat: no-repeat;
+	background-size: cover;
 /*need to fix this*/
 	background-size: 100%;
-	height: 666px;
+	height: 100vh;
 }
 
 h1 {
@@ -128,6 +135,17 @@ a:hover {
 .project_display {
 	height: 1000px;
 	background-color: #2D3142;
+}
+
+/* BODY - BOTTOM TRIANGLE */
+
+.bottomtriangle {
+		background-image: url("images/background image bottom.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+/*need to fix this*/
+	background-size: 100%;
+	height: 100vh;
 }
 /* BODY - FOOTER */
 
