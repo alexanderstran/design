@@ -42,6 +42,10 @@ main {
 
 }
 
+main a {
+	text-decoration: none;
+}
+
 p {
 	font-family: Roboto, Open Sans, sans-serif;
 	font-size: 18px;
@@ -112,7 +116,7 @@ button:hover {
 	background-color: #F26118;
 	border-width: 2px;
 	color: #44545E;
-	transition: .3s ease-in;
+	transition: .7s ease-in;
 }
 
 /* BODY - HEADER BAR */
@@ -129,6 +133,8 @@ button:hover {
 a:hover {
 	color: #EF8354;
 }
+
+a.menu_links { cursor: crosshair; }
 
 /* BODY - WORK DISPLAY */
 
