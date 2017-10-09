@@ -12,6 +12,9 @@
 	box-sizing: border-box;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
 /* NAVIGATION */
 
 .logo {
@@ -100,6 +103,10 @@ section .container h2 {
 	padding-top: 150px;
 }
 
+section h3 {
+	padding-top: 120px;
+	text-align: center;
+}
 button h3 {
 	padding: 9px 0px 9px 0px;
 
@@ -250,6 +257,11 @@ a.menu_links { cursor: crosshair; }
 	section .container h2 {
 		padding-top: 0px;
 	}
+	section h3 {
+		font-size: 20px;
+	padding-top: 80px;
+	text-align: center;
+}
 }
 
 @media (max-width: 768px) {
@@ -270,6 +282,11 @@ a.menu_links { cursor: crosshair; }
 	"item6"
 
 	}
+	section h3 {
+		font-size: 20px;
+	padding-top: 110px;
+	text-align: center;
+}
 }
 
 @media (max-width: 450px) {
@@ -292,6 +309,15 @@ a.menu_links { cursor: crosshair; }
 	section .container h2 {
 		padding-top: 50px;
 	}
+		section h3 {
+		font-size: 20px;
+	padding-top: 85px;
+	text-align: center;
+}
+.navbar a h3 {
+	display: inline-block;
+	font-size: 20px;
+}
 }
 /* RESPONSIVE DESIGN */
 
