@@ -27,6 +27,10 @@
 	z-index: 100;
 	*/
 }
+
+.cta_orange {
+	display: inline;
+}
 /* BODY - TYPE STYLES */
 
 body {
@@ -91,6 +95,11 @@ h3 {
 	padding: 25px 10px 0px 10px;
 }
 
+section .container h2 {
+	color: #EF8354;
+	padding-top: 150px;
+}
+
 button h3 {
 	padding: 9px 0px 9px 0px;
 
@@ -147,6 +156,11 @@ a.menu_links { cursor: crosshair; }
 .project_display {
 	height: 1000px;
 	background-color: #2D3142;
+}
+
+.whitesection {
+	height: 400px;
+	background-color: white;
 }
 
 /* BODY - BOTTOM TRIANGLE */
@@ -235,7 +249,9 @@ a.menu_links { cursor: crosshair; }
 	"item1 item2"
 	"item3 item4"
 	"item5 item6"
-
+	}
+	section .container h2 {
+		padding-top: 0px;
 	}
 }
 
@@ -275,6 +291,9 @@ a.menu_links { cursor: crosshair; }
 	"item4"
 	"item5"
 	"item6"
+	}
+	section .container h2 {
+		padding-top: 50px;
 	}
 }
 /* RESPONSIVE DESIGN */
