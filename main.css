@@ -158,20 +158,17 @@ a.menu_links { cursor: crosshair; }
 	background-color: #2D3142;
 }
 
-.whitesection {
-	height: 400px;
-	background-color: white;
-}
 
 /* BODY - BOTTOM TRIANGLE */
 
 .bottomtriangle {
 	background-image: url("images/background image bottom.png");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: white;
 	/*need to fix this*/
 	background-size: 100%;
-	height: 100vh;
+		height: 100vh;
+
 }
 /* BODY - FOOTER */
 
